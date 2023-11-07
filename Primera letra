@@ -1,0 +1,6 @@
+def contrasena():
+  palabra=input("Introduce una palabra: ")
+  print("La primera letra de "+palabra+ " es " +palabra[1])
+
+
+contrasena()
