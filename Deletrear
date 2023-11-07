@@ -1,0 +1,8 @@
+def contrasena():
+  palabra=input("Introduce una palabra: ")
+  for cont in range(0,4):
+    print ("La letra "+ str(cont) + "de la palabra "+palabra+" es "+palabra[cont])
+
+
+contrasena()
+  
