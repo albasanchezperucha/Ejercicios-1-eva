@@ -1,0 +1,9 @@
+def cuenta_aes():
+  palabra=input("Dime una palabra: ")
+  numeroAes=0
+  for cont in range(0,len(palabra)):
+    if(palabra[cont]== "A" or palabra[cont]=="a"):
+      numeroAes=numeroAes+1
+  print("La palabra "+palabra+" tiene "+str(numeroAes)+ " aes")
+
+cuenta_aes()
