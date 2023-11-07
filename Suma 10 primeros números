@@ -1,0 +1,8 @@
+#Este programa suma los 10 primeros números enteros. ¿Te enteras?
+def suma():
+  suma_acumulada=0
+  for cont in range(1,11):
+    suma_acumulada=suma_acumulada+cont
+  print("SUMA ACUMULADA= "+str(suma_acumulada))
+
+suma()
