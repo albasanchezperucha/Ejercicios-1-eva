@@ -1,0 +1,6 @@
+def mensaje():
+  nombre="Alba"
+  edad=17
+  print(nombre + str(edad))
+
+mensaje()
